@@ -21,3 +21,7 @@ group :doc do
 end
 
 gem 'clearance'
+
+group :development, :test do
+  gem 'quiet_assets'
+end
